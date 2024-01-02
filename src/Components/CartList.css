@@ -1,0 +1,60 @@
+/* AdminEye.css */
+
+/* Container for the grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  grid-gap: 50px; /* Adjust the gap between grid items */
+}
+
+/* Individual grid items */
+.grid-item {
+  border: 1px solid #ccc; /* Add borders or styles as needed */
+  padding: 10px;
+  text-align: center;
+}
+
+/* Image style */
+.grid-item img {
+  max-width: 100%;
+  height: 300px;
+}
+/* ... previous styles ... */
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Edit button styling */
+.edit-button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Delete button styling */
+.delete-button {
+  background-color: #020202;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* ... other styles ... */
+
+
+/* You can add more styles or customize the layout further based on your requirements. */
+
+/* Center the grid on the page */
+.grid-container {
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust the maximum width as needed */
+}
+
+/* Additional styling as needed */

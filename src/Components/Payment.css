@@ -1,0 +1,77 @@
+/* Payment.css */
+
+.payment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.address {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+.ships {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.shipping-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+#radio label {
+  font-weight: bold;
+  color: #555;
+}
+
+.shipping-btn {
+  background-color: #000000;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.shipping-btn:hover {
+  background-color: #191a19;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .address {
+    width: 80%;
+  }
+
+  .shipping-form {
+    grid-template-columns: 1fr;
+  }
+}

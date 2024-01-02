@@ -1,0 +1,55 @@
+/* CartDetail.css */
+
+/* Styles for the entire container */
+.swathi {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Adjust the column widths as needed */
+    gap: 20px; /* Adjust the gap between the columns as needed */
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the images container on the left */
+  .image-details {
+    text-align: center;
+  }
+  
+  /* Style for individual images */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+  
+  /* Style for the cart details container on the right */
+  .cart-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style for the cart title */
+  .swathi.h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Style for the cart details */
+  .swathi.h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  /* Style for the price */
+  .swathi.p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Style for frame type, frame size, and brand */
+  .swathi.p {
+    font-size: 16px;
+    color: #777;
+  }
+  

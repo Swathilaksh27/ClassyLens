@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 .addframe {
+    color: #333;
+  }
+  
+  form .addframe{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label .addframe{
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  input .addframe {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  input .addframe[type="checkbox"] {
+    margin-bottom: 16px;
+  }
+  
+  button .addframe{
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button .addframe:hover {
+    background-color: #0056b3;
+  }
+  
+  button .addframe[type="submit"] {
+    background-color: #28a745;
+  }
+  
+  button .addframe[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  .link-button {
+    text-decoration: none;
+  }
+  
+  .link-button button .addframe{
+    margin-top: 16px;
+  }
+  

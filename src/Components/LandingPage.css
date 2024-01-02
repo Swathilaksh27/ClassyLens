@@ -1,0 +1,64 @@
+
+.banner-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('https://i.pinimg.com/564x/01/0b/69/010b690ccdfded53f3917f7713489588.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-blend-mode: overlay;
+    align-items: center;
+}
+.clear {
+    background-color:transparent;
+    color: white;
+    font-size: 500%;
+}
+.quote {
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+/* Add this CSS for positioning the icon on the right side */
+/* Add this CSS for positioning the icon on the right side */
+.account-container {
+    position: relative;
+}
+
+.account-icon-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.user-details {
+    position: absolute;
+    top: 40px; /* Adjust the top position as needed */
+    right: -10px; /* Adjust the right position as needed */
+    background-color: white; /* Add desired background color */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.slider-container {
+    max-width: 80%; /* Adjust the percentage as needed */
+    margin: auto;
+}
+.slider-image {
+    max-width: 100%; /* Adjust the percentage as needed */
+    height: auto;
+}
+
+
+
+

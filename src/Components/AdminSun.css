@@ -1,0 +1,37 @@
+.sunglasses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 70px;
+}
+
+.sunglasses-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.sunglasses-item img {
+    max-width: 90%;
+    height: auto;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.edit-button,
+.delete-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}

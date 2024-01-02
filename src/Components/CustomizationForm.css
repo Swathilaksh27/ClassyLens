@@ -1,0 +1,49 @@
+/* CustomizationForm.css */
+
+.customization-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.customization-form-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.customization-form-container form {
+  display: grid;
+  gap: 10px;
+}
+
+.customization-form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.customization-form-container select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.customization-form-container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.customization-form-container button:hover {
+  background-color: #45a049;
+}

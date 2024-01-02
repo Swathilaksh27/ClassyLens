@@ -1,0 +1,18 @@
+/* Add this to your CSS file or style section */
+.cart-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display three items in a row */
+  gap: 20px;
+}
+
+.cart-item {
+  list-style: none;
+  border: 2px solid #030303;
+  padding: 10px;
+  text-align: center;
+}
+
+.cart-item img {
+  max-width: 100%;
+  height: auto;
+}
